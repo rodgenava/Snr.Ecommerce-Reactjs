@@ -1,0 +1,12 @@
+ol.breadcrumb {
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+  }
+  ol.breadcrumb li {
+    display: inline;
+  }
+  ol.breadcrumb li+li:before {
+    padding: 8px;
+    content: '\003E';
+  }
